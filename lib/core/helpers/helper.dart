@@ -1,5 +1,7 @@
 import 'package:intl/intl.dart';
 
+/// Convert INT (stored in db) to DOUBLE for UI (2 decimals).
+/// Save back INT (multiply by 100) to keep precision.
 class CurencyHelper {
   static double toDouble(int amount) => amount / 100;
   static int toInt(double amount) => (amount * 100).round();

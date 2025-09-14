@@ -83,13 +83,12 @@ class DbService {
     ''');
 
     // ---- SEED DEFAULT ADMINS ----
-    const admin = User(
-      id: 'admin-001',
-      name: 'Owner',
-      email: 'admin@resto.com',
-      password: '123456', // hash me later
-      role: Constant.roleAdmin, // ← lower-case constant
-    );
-    await db.insert('users', admin.toMap());
+    await db.insert('users', {
+      'id': 'admin-001',
+      'name': 'Owner',
+      'email': 'admin@resto.com',
+      'password': '123456',
+      'role': Constant.roleAdmin
+    });
   }
 }
