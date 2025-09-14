@@ -7,7 +7,7 @@ class Constant {
 
   // ---- ROLE ----
   static const String roleAdmin = 'ADMIN';
-  static const String roleAfmin = 'CASHIER';
+  static const String roleCashier = 'CASHIER';
 
   // ---- PAYMENTS, CATEGORIES, STOCK MOVEMENTS, SHIFT
   static const List<String> payments = ['CASH', 'E-WALLET', 'BANK TRANSFER'];
