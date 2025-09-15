@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:resto_pos/core/services/auth_services.dart';
 import '../core/providers/auth_providers.dart';
 import '../views/admins/admin_dashboard.dart';
 import '../views/cashiers/cashier_dashboard.dart';
