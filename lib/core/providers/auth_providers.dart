@@ -3,7 +3,6 @@ import 'package:resto_pos/core/services/db_services.dart';
 import '../models/user.dart';
 import 'package:crypto/crypto.dart';
 import 'dart:convert';
-import '../services/db_services.dart';
 
 class AuthProviders with ChangeNotifier {
   User? _user;
