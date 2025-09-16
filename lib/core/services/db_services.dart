@@ -87,7 +87,8 @@ class DbService {
       'id': 'admin-001',
       'name': 'Owner',
       'email': 'admin@resto.com',
-      'password': '123456',
+      'password':
+          '8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86afffca5af6b1c0c91891b7',
       'role': Constant.roleAdmin
     });
   }
