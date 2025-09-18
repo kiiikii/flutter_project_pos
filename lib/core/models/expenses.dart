@@ -22,7 +22,7 @@ class Expenses {
         cashierId: map['cashierId'],
         amount: map['amount'],
         note: map['note'],
-        shiftType: map['shiftType'],
+        shiftType: map['shift_type'],
         createdAt: DateFormatHelper.parse(map['createdAt']),
       );
 
@@ -31,7 +31,7 @@ class Expenses {
         'cashierId': cashierId,
         'amount': amount,
         'note': note,
-        'shiftType': shiftType,
+        'shift_type': shiftType,
         'createdAt': DateFormatHelper.toSql(createdAt),
       };
 
