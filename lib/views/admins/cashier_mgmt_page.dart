@@ -17,6 +17,7 @@ class _cashierMgmtPageState extends State<CashierMgmtPage> {
   late Future<List<User>> _list;
 
   @override
+  // ignore: override_on_non_overriding_member
   void _load() {
     _list = CashierServices.index();
     setState(() {});
