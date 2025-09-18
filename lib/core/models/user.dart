@@ -2,14 +2,14 @@
 import '../helpers/constant.dart';
 
 class User {
-  final String? id;
+  final String id;
   final String name;
   final String email;
   final String password; // plain only for login; store has later
   final String role; // 'admin | 'cashier' (Check constraint)
 
   User({
-    this.id,
+    required this.id,
     required this.name,
     required this.email,
     required this.password,
