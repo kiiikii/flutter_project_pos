@@ -26,7 +26,7 @@ class _AdminDashboardState extends State<AdminDashboard> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Admin Dashboard')),
+      appBar: RAAppBar(title: 'Admin Dashboard'),
       drawer: const RADrawer(),
       body: Padding(
         padding: const EdgeInsets.all(16),
