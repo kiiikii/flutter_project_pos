@@ -12,10 +12,10 @@ class ProductMgmtPage extends StatefulWidget {
   const ProductMgmtPage({super.key});
 
   @override
-  State<ProductMgmtPage> createState() => _ProductMgmtPageState();
+  State<ProductMgmtPage> createState() => _productMgmtPageState();
 }
 
-class _ProductMgmtPageState extends State<ProductMgmtPage> {
+class _productMgmtPageState extends State<ProductMgmtPage> {
   late Future<List<Product>> _products;
   late Future<List<Ingredient>> _ingredients;
 
