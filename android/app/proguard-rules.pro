@@ -1,0 +1,2 @@
+-dontwarn io.flutter.**
+-dontwarn com.ryanheise.**
