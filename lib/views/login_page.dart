@@ -11,6 +11,7 @@ class LoginPage extends StatefulWidget {
   State<LoginPage> createState() => _loginPageState();
 }
 
+// ignore: camel_case_types
 class _loginPageState extends State<LoginPage> {
   final _email = TextEditingController(text: 'admin@resto.com');
   final _pass = TextEditingController(text: '12345');
